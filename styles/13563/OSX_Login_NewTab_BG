@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html><head profile="http://microformats.org/profile/rel-license">
+    <script src="https://js-agent.newrelic.com/nr-974.min.js"></script>
+      
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+		<title>
+				DarkSidebar - Themes and Skins for Browser - userstyles.org
+		</title>
+			<link rel="canonical" href="http://stuffpipeline.co/styles/13563/OSX_Login_NewTab_BG">
+			<meta name="description" content="Use the login background OS X uses for your new tab page.">
+		<meta property="fb:admins" content="1319443195">
+		<meta name="viewport" content="width=device-width">
+		<link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="userstyles Search">
+		<link rel="icon" href="/images/s3-16.png" type="image/png">
+		<link rel="alternate" type="application/json" href="/styles/13563.json" title="OSX Login NewTab BG">
+		<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe">
+
+		
+		<script>
+			var eventTypesToRecord = ["styleAlreadyInstalled", "styleCanBeInstalled", "styleCanBeUpdated", "styleLoadCode"];
+			eventTypesToRecord.forEach(function(type) {
+				document.addEventListener(type, recordEvent, false);
+			});
+			var eventsHeard = [];
+			function recordEvent(e) {
+				console.log("Recording " + e.type + " for dispatching later.");
+				eventsHeard.push(e.type);
+			}
+			function stopRecordingEvents() {
+				console.log("Stopping recording events, " + eventsHeard.length + " events will now be dispatched.");
+				eventTypesToRecord.forEach(function(type) {
+					document.removeEventListener(type, recordEvent, false);
+				});
+				eventsHeard.forEach(function(type) {
+					var stylishEvent = document.createEvent("Events");
+					stylishEvent.initEvent(type, false, false, document.defaultView, null);
+					document.dispatchEvent(stylishEvent);
+				});
+			}
+		</script><style type="text/css">
+:root .ad
+{ display: none !important; }</style>
+		<!--<script src="/assets/application-6172d7afe29201476f01260b3d8d7284ab2f939172e20a4b6c712d9bc9669e99.js" defer="defer"></script>-->
+
+			<link rel="stylish-code" href="#stylish-code">
+	<script>document.querySelector("link[rel='stylish-code']").setAttribute("href", "#stylish-code");</script>
+
+	<link rel="stylish-description" href="#stylish-description">
+	<!--<link rel="stylish-install-ping-url" href="https://userstyles.org/styles/install/113220?source=stylish-fx"> -->
+	<!--
+  	<link rel="stylish-install-ping-url-chrome" href="https://userstyles.org/styles/install/113220?source=stylish-ch">
+	<link rel="stylish-install-ping-url-opera" href="https://userstyles.org/styles/install/113220?source=stylish-op">
+	<link rel="stylish-install-ping-url-safari" href="https://userstyles.org/styles/install/113220?source=stylish-sf">
+	<link rel="stylish-install-ping-url-dolphin" href="https://userstyles.org/styles/install/113220?source=stylish-do">
+	<link rel="stylish-code-chrome" href="https://userstyles.org/styles/chrome/113220.json">
+	<link rel="stylish-code-opera" href="https://userstyles.org/styles/chrome/113220.json">
+	-->
+	<link rel="stylish-id-url" href="http://stuffpipeline.co/styles/13563">
+	<link rel="stylish-md5-url" href="http://update.stuffpipeline.co/styles/13563.md5">
+	<link rel="stylish-update-url" href="http://stuffpipeline.co/styles/13563/OSX_Login_NewTab_BG.css">
+
+
+
+
+		<!--[if lt IE 9]>
+		<script src="/javascripts/html5.js"></script>
+		<![endif]-->
+
+
+	<style type="text/css">
+:root *[jhslxpx][hidden] { display: none !important; }</style>
+
+
+</head>
+
+	<body>
+		<header id="main-header">
+			<h1>
+				<a href="/">userstyles.org</a> -
+					OSX Login NewTab BG
+			</h1>
+		</header>
+
+		<div id="content-wrapper">
+			<article id="main-article">
+				
+
+
+<div id="stylish-event-element" style="display: none;"></div>
+
+<div id="left-info">
+	<div id="screenshots">
+			<figure id="main-screenshot" class="screenshot-thumbnail">
+				<a href="https://userstyles.org/style_screenshots/113220_after.png?r=1473120368" data-lightbox="screenshot" rel="nofollow" title="With the style applied"><img src="https://userstyles.org/style_screenshot_thumbnails/113220_after.png?r=1473120368" class="screenshot" alt=""></a>
+			</figure>
+			<div id="more-screenshots">
+				<span>More screenshots:</span>
+					<a href="https://userstyles.org/style_screenshots/113220_additional_15015.png?r=1473120368" data-lightbox="screenshot" rel="nofollow" title="Searching History">Searching History</a>, 					<a href="https://userstyles.org/style_screenshots/113220_additional_15086.png?r=1473120368" data-lightbox="screenshot" rel="nofollow" title="Active and hovered items in Reading List">Active and hovered items in Reading List</a>
+			</div>
+	</div>
+
+</div>
+
+<section id="style-info">
+
+	<div id="main-style-info">
+
+		<div id="long-description">
+			Use the login background OS X uses for your new tab page.
+		</div>
+
+
+		
+<div style="display: none;" id="style-install-unknown" class="install-status install-info">
+	<p>To use this style, install <a href="https://www.mozilla.org/firefox/">Firefox</a> and <a href="https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-installbox">Stylish</a>. If you already have Stylish, make sure this site is allowed to run JavaScript.</p>
+
+</div>
+
+<div id="style-install-mobile-safari-android" class="install-status install-info" style="display: none">
+	Did you know <a href="https://www.mozilla.org/firefox/">Firefox is available on Android</a>? You'll need that and <a href="https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-installbox">Stylish</a> to use this.
+</div>
+
+<div id="style-install-mobile-chrome-android" class="install-status install-info" style="display: none">
+	Did you know <a href="https://www.mozilla.org/firefox/">Firefox is available on Android</a>? You'll need that and <a href="https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-installbox">Stylish</a> to use this.
+</div>
+
+<div id="stylish-installed-style-installed" class="install-status install-info" style="">
+	<span class="install-symbol">✓</span> Style installed! <a class="install-note" href="/help/stylish_firefox" rel="nofollow">Need help?</a>
+	
+
+</div>
+
+<div id="stylish-installed-style-installed-ie" class="install-status install-info" style="display: none">
+	<span class="install-symbol">✓</span> Style installed! <a class="install-note" href="/help/stylish" rel="nofollow">Need help?</a>
+	
+
+</div>
+
+<div id="stylish-installed-style-installed-chrome" class="install-status install-info" style="display: none">
+	<span class="install-symbol">✓</span> Style installed! <a class="install-note" href="/help/stylish_chrome" rel="nofollow">Need help?</a>
+	
+
+</div>
+
+<div id="stylish-installed-style-installed-opera" class="install-status install-info" style="display: none">
+	<span class="install-symbol">✓</span> Style installed!
+	
+
+</div>
+
+<div id="stylish-installed-style-needs-update" class="install-status install" style="display: none">
+	<span class="install-symbol">+</span> Update with Stylish
+</div>
+
+<div id="stylish-installed-style-needs-update-chrome" class="install-status install" style="display: none">
+	<span class="install-symbol">+</span> Update with Stylish
+</div>
+
+<div id="stylish-installed-style-needs-update-opera" class="install-status install" style="display: none">
+	<span class="install-symbol">+</span> Update with Stylish
+</div>
+
+<div id="stylish-installed-style-not-installed" class="install-status install" style="display: none">
+	<span class="install-symbol">+</span> Install with Stylish
+</div>
+
+<div id="stylish-installed-style-not-installed-ie" style="display: none" class="install-status install">
+	<span class="install-symbol">+</span> Install with Stylish
+</div>
+
+<div id="style-install-mozilla-no-stylish" class="install-status install-info" style="display: none;">
+	<p>To use this style, install <a href="https://addons.mozilla.org/firefox/downloads/latest/2108/platform:5/addon-2108-latest.xpi?src=external-installbox">Stylish</a>.</p>
+</div>
+
+<div id="style-install-ie" class="install-status install-info" style="display: none">
+	<p>To use this style, install <a href="https://www.mozilla.org/firefox/">Firefox</a> and <a href="https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-installbox">Stylish</a>.</p>
+
+</div>
+
+	<div id="style-install-opera" class="install-status install-info" style="display: none">
+		<p>To use this style, install <a href="https://addons.opera.com/extensions/download/stylish-for-opera/">Stylish</a>.</p>
+
+	</div>
+	<div id="stylish-installed-style-not-installed-opera" class="install-status no-install" style="display: none"><span class="install-symbol">X</span> Not available on Opera.</div>
+
+	<div id="style-install-chrome" class="install-status no-install" style="display:none"><span class="install-symbol">X</span> Not available on Chrome.</div>
+
+	<div id="style-install-chrome" class="install-status no-install" style="display:none"><span class="install-symbol">X</span> Not available on Safari.</div>
+
+	<div id="stylish-installed-style-not-installed-chrome" class="install-status no-install" style="display: none"><span class="install-symbol">X</span> Not available on Chrome.</div>
+
+
+	</div>
+
+	<div id="hidden-meta">
+		<div id="stylish-description" rel="dct:title">OSX Login NewTab BG</div>
+		<div id="user-id">243265</div>
+		<div id="style-id">13563</div>
+		<div id="subcategory">browser</div>
+	</div>
+
+		<div jhslxpx="" id="below-install-ad" class="ad" hidden="">
+			<div jhslxpx="" class="ad-note" hidden=""><span>Advertisement</span></div>
+			<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- Style pages below install responsive -->
+			<ins jhslxpx="" class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2247465624637408" data-ad-slot="1865604119" data-ad-format="auto" hidden=""></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+
+	<div id="info-tables">
+
+		<table id="style-author-info">
+			<tbody><tr>
+				<th>Author</th>
+				<td><a rel="nofollow dct:creator" href="/users/243265">iJunkie22</a></td>
+			</tr>
+			<tr>
+				<th>License</th>
+				<td>
+								<a class="license-image" rel="license nofollow" href="http://creativecommons.org/licenses/by/4.0/"><img alt="CC BY" style="border-width:0; width: 80px; height: 15px;" src="/assets/cc/cc-by-345c7ad61f1be3650186b5773b3777043514e4515bb1311a7678dee06ae98604.png"></a>
+				</td>
+			</tr>
+			<tr>
+				<th>Created</th>
+				<td>Apr 29, 2015</td>
+			</tr>
+			<tr>
+				<th>Updated</th>
+				<td>May  7, 2015</td>
+			</tr>
+		</tbody></table>
+		<table id="style-install-info">
+			<tbody><tr>
+				<th>Installs (this week)</th>
+				<td>0</td>
+			</tr>
+			<tr>
+				<th>Installs (total)</th>
+				<td>129</td>
+			</tr>
+			<tr>
+				<td><a style="display: inline;" href="#view-code" id="show-button">Show CSS</a></td>
+			</tr>
+		</tbody></table>
+	</div>
+
+	<div id="show-code">
+		<pre id="view-code"><code id="stylish-code"></code></pre>
+	</div>
+
+
+</section>
+
+
+			</article>
+		</div>
+
+		<div id="left-sidebar">
+
+			<nav>
+			</nav>
+
+						<footer id="related">
+							<h2>Related Themes</h2>
+							<ul>
+									<li><a href="/styles/96256/add-ons-manager-white-category-titles">Add-ons Manager - White Category Titles</a></li>
+									<li><a href="/styles/95099/collapsing-tabs">Collapsing Tabs</a></li>
+									<li><a href="/styles/95101/flatten-calendar">Flatten Calendar</a></li>
+									 <li class="more">More <a href="/styles/browse/browser">Browser themes</a></li>
+							</ul>
+						</footer>
+
+		</div>
+
+		<footer>
+			<p><a href="/contact" rel="nofollow">Contact the admin.</a></p>
+		</footer>
+
+</body>
+</html>

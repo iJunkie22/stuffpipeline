@@ -1,0 +1,13 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url("about:newtab") {
+html, :root {
+background: transparent url("file:///Library/Caches/com.apple.desktop.admin.png") repeat fixed 0% 0% !important;
+background-size: 100% !important;
+background-position: center top !important;
+}
+body, #newtab-margin-bottom {
+background: transparent none !important;
+}
+
+}
