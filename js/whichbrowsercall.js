@@ -11,10 +11,10 @@ function loadAPI(ua, callbackFunction){
         callbackFunction(wb.toJSON());
     }
 };
-request.open('GET', 'https://api.whichbrowser.net/rel/detect.js', true);
+request.open('GET', 'http://api.whichbrowser.net/rel/detect.js', true);
 //request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');  // Tells server that this call is made for ajax purposes.
                                                                  // Most libraries like jQuery/Prototype/Dojo do this
-request.setRequestHeader('Origin', 'https://api.whichbrowser.net')
+//request.setRequestHeader('Origin', 'https://api.whichbrowser.net')
 request.setRequestHeader('User-Agent', ua);
 request.setRequestHeader('Host', 'api.whichbrowser.net')
 request.send(null);
