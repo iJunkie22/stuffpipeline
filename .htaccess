@@ -1,1 +1,1 @@
-Header set Access-Control-Allow-Origin "https://api.whichbrowser.net"
+Header set Access-Control-Allow-Origin "*"
