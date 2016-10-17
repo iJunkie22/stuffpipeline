@@ -39,6 +39,10 @@ function getLabels(inputElement, getAll) {
     }
 };
 
+String.prototype.URLescape1 = function() {
+  return this.replace(" ", "%20").replace("/", "%2F");
+};
+
 function FailCounter() {
     this._nodes = {};
     this._keys = [];
