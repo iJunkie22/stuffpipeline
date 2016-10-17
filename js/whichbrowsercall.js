@@ -16,6 +16,7 @@ request.open('GET', 'https://api.whichbrowser.net/rel/detect.js', true);
                                                                  // Most libraries like jQuery/Prototype/Dojo do this
 request.setRequestHeader('Origin', 'https://api.whichbrowser.net')
 request.setRequestHeader('User-Agent', ua);
+request.setRequestHeader('Host', 'api.whichbrowser.net')
 request.send(null);
 }
 
