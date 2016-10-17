@@ -31,8 +31,11 @@
 <script src="js/whichbrowsercall.js"></script>
 <script id="wb-runner" type="text/javascript">
   loadAPI();
-  var wb = new WhichBrowser();
-  document.getElementById("wb-result").textContent = JSON.stringify(wb.toJSON);  
+  window.setTimeout(function(){
+    var wb = new WhichBrowser();
+  document.getElementById("wb-result").textContent = JSON.stringify(wb.toJSON);
+  }
+    , 500);
   </script>
 </body>
 </html>
