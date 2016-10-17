@@ -33,9 +33,9 @@
   loadAPI();
   window.setTimeout(function(){
     var wb = new WhichBrowser();
-  document.getElementById("wb-result").textContent = JSON.stringify(wb.toJSON);
+  document.getElementById("wb-result").textContent = JSON.stringify(wb.toJSON());
   }
-    , 500);
+    , 1000);
   </script>
 </body>
 </html>
