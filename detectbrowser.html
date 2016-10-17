@@ -29,14 +29,10 @@
 <hr>
 <code id="wb-result"></code>
 <script src="js/whichbrowsercall.js"></script>
-<script type="text/javascript">
-  function tablemaker(){
-  bindToBrowserDetected(function(responseJSON){
-    var resultCodeEl = document.getElementById("wb-result");
-    resultCodeEl.textContent = JSON.stringify(responseJSON);
-  })}
-  tablemaker();
-  
+<script id="wb-runner" type="text/javascript">
+  loadAPI();
+  var wb = new WhichBrowser();
+  document.getElementById("wb-result").textContent = JSON.stringify(wb.toJSON);  
   </script>
 </body>
 </html>
